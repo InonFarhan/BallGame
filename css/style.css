@@ -1,0 +1,70 @@
+* {
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray
+}
+
+.wall {
+    background-color: brown
+}
+
+.c-b {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+}
+
+.gameOver {
+    opacity: 0;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+button {
+    opacity: 0;
+    margin-top: 5px;
+    border-radius: 35%;
+    background-color: brown;
+}
+
+.level button {
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.restart {
+    margin-bottom: 10px
+}
+
+.pause {
+    opacity: 1;
+    margin-bottom: 10px
+}
+
+/* .moving button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+} */

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <h1>Collect those Balls</h1>
+  <p class="c-b">Collecting balls: <span>0</span></p>
+
+  <div class="level">
+    <button class="eazy" onclick="chooseLevel(this)">Eazy</button>
+    <button class="normal" onclick="chooseLevel(this)">Normal</button>
+    <button class="hard" onclick="chooseLevel(this)">Hard</button>
+  </div>
+
+  <button class="pause" onclick="pause()">Pause</button>
+
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+
+  <!-- <div class="moving">
+    <button onclick="goUp()" class="up">Up</button>
+    <div class="center">
+      <button onclick="goLeft()" class="left">Left</button>
+      <button onclick="goRigth()" class="rigth">Rigth</button>
+    </div>
+    <button onclick="goDown()" class="down">Down</button>
+  </div> -->
+
+  <p class="gameOver">Game over</p>
+  <button class="restart" onclick="restart()">Restart</button>
+  <script src="js/app.js"></script>
+  <script src="js/util.js"></script>
+</body>
+
+</html>
